@@ -1,4 +1,4 @@
-# CEI API
+# CEI API 💸
 
 API to collect data from Canal Eletrônico do Investidor ([CEI](https://cei.b3.com.br/)) using [cei-crawler](https://github.com/Menighin/cei-crawler).
 
