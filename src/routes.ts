@@ -6,6 +6,7 @@ const routes = express.Router();
 
 const ceiController = new CEIController();
 
+routes.get("/", (req, res) => res.json({ status: "Online" }));
 routes.post("/token", ceiController.createToken);
 routes.get("/wallet", ceiController.getWallet);
 routes.get("/dividends", ceiController.getDividends);
