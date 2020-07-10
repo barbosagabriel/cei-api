@@ -22,7 +22,7 @@ $ cd cei-api
 $ npm install
 
 # Run migrations
-$ npm knex:migrate
+$ npm run knex:migrate
 
 # Start server *
 $ npm run dev
